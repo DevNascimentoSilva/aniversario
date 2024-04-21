@@ -12,6 +12,7 @@
     font-family: Roboto, sans-serif;
     color: variables.$textColor;
     list-style: none;
+    touch-action: manipulation;
 }
 .container {
     max-width: 960px;
@@ -20,8 +21,10 @@
 
     @media (max-width: 640px) {
         max-width: 80%;
+        touch-action: manipulation;
     }
     @media (max-width: 1024px) {
         max-width: 90%;
+        touch-action: manipulation;
     }
 }
